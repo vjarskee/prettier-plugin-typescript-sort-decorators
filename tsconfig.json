@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "alwaysStrict": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "baseUrl": "./",
+    "outDir": "lib",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": ["es6"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+  },
+  "exclude": ["node_modules", "lib"]
+}
